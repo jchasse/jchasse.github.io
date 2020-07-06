@@ -1,11 +1,11 @@
 # Site settings
 author: Jonathan Chasse
-title: 
+title: Why in the world do I want to code?
 header-img: img/home-bg.png
 email: jonathan.r.chasse@gmail.com
 copyright_name: Jonathan Chasse
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Rational, opportunity, future of work, entrepreneur, family
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jchasse
