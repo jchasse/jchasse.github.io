@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Validations vs Form Required"
-date:       2020-08-29 19:17:05 +0000
+date:       2020-08-29 15:17:05 -0400
 permalink:  validations_vs_form_required
 ---
 
@@ -53,4 +53,30 @@ could become this:
 ```
 with a delete keystroke. This bypasses the requirement for the form and could introduce unwanted entries into your database.
 
-Hope this example of how to ensure valid data is entered into your app helps in your journey. Good luck coding!
+This example of validations was directly pulled out from the programming of my first MVC app using the SInatra framework. One of the biggest challenges that I have found in learning to code, and this particular project, was actually **understanding the additional functionality of the framework or gems**. I feel it is absolutely imperative to review and orient yourself to the library documentation of the developer. A great and thorough example of Sinatra documentation can be found [here](http://sinatrarb.com/intro.html). 
+
+In exploring this site, you are quickly able to determine the intention behind the developers reason for creating the library and the functionality it can provide. For example, you quickly understand that Sinatra is intended to make it much easier to handle HTTP requests and to generate responses by directing the requests to specific routes.
+
+```
+get '/' do
+  .. show something ..
+end
+
+post '/' do
+  .. create something ..
+end
+
+put '/' do
+  .. replace something ..
+end
+
+patch '/' do
+  .. modify something ..
+end
+
+delete '/' do
+  .. annihilate something ..
+end
+```
+
+Don't be afraid to dig in and explore all the resources at your fingertips. Hope this example of how to ensure valid data is entered into your app helps in your journey. Good luck coding!
