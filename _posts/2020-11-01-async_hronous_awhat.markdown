@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Async[hronous] awhat?"
-date:       2020-11-02 02:58:07 +0000
+date:       2020-11-01 21:58:08 -0500
 permalink:  async_hronous_awhat
 ---
 
